@@ -1,0 +1,1067 @@
+.greenlink {
+    background: green;
+    padding: 20px;
+    color: #fff;
+    text-decoration: none;
+    font-weight: 700;
+    text-transform: uppercase;
+    width: 100%;
+    text-align: center;
+    margin: 0 0 20px;
+    border-radius: 5px;
+    text-shadow: 0 4px 3px rgba(0, 0, 0, .4), 0 8px 13px rgba(0, 0, 0, .1), 0 18px 23px rgba(0, 0, 0, .1);
+    font-size: 26px;
+    line-height: 1.4em;
+    box-shadow: 0 30px 30px -30px #00000070
+}
+
+a.n-underline {
+    text-decoration: none
+}
+
+.gradient {
+    background-color: #7ac44d;
+    background-image: -webkit-repeating-radial-gradient(left bottom, ellipse farthest-corner, #f3ef15 0, #009885 100%);
+    background-image: repeating-radial-gradient(ellipse farthest-corner at left bottom, #f3ef15 0, #009885 100%);
+    background-image: -ms-repeating-radial-gradient(left bottom, ellipse farthest-corner, #f3ef15 0, #009885 100%)
+}
+
+.gradient:hover {
+    background: #27f713
+}
+
+#body #right .ynst_5c18cb8f4e503:nth-child(2n+1) {
+    margin-top: 10px;
+    margin-bottom: 10px
+}
+
+div[class^=ynst_] {
+    position: relative;
+    float: left;
+    width: 100%;
+    height: auto;
+    font-size: 1px
+}
+
+div[class^=ynst_] a {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%
+}
+
+div[class^=ynst_] img {
+    width: 100%;
+    height: auto
+}
+
+.theiaStickySidebar::after {
+    content: "";
+    display: table;
+    clear: both
+}
+
+[class*=" icons-"] {
+    display: inline;
+    width: auto;
+    height: auto;
+    line-height: normal;
+    vertical-align: baseline;
+    background-image: none;
+    background-position: 0 0;
+    background-repeat: repeat;
+    margin-top: 0;
+    font-weight: 400;
+    font-style: normal;
+    text-decoration: inherit
+}
+
+[class*=" icons-"]::before {
+    font-family: icons;
+    text-decoration: inherit;
+    display: inline-block;
+    transition: all .2s ease 0s
+}
+
+.icons-play::before {
+    content: "Â¯"
+}
+
+* {
+    padding: 0;
+    margin: 0;
+    outline: 0;
+    box-sizing: border-box
+}
+
+body {
+    background-color: #eee;
+    font-family: open sans, Arial, serif, Arial, serif
+}
+
+div#__main__ {
+    position: relative;
+    width: 100%;
+    margin-top: 36px
+}
+
+.mOut {
+    width: 100%;
+    position: relative
+}
+
+.mIn {
+    width: 1200px;
+    margin: 0 auto;
+    float: none;
+    padding-left: 30px;
+    padding-right: 30px;
+    overflow: hidden
+}
+
+@media screen and (max-width:1280px) {
+    div.mIn {
+        width: 100% !important;
+        margin-left: 0;
+        margin-right: 0;
+        padding-left: 10px;
+        padding-right: 10px
+    }
+}
+
+@media screen and (max-width:480px) {
+    div.mIn {
+        margin-left: 0;
+        margin-right: 0;
+        padding-left: 0;
+        padding-right: 0
+    }
+}
+
+a,
+img {
+    border: medium;
+    outline: 0
+}
+
+[class^=col-] {
+    position: relative;
+    display: block;
+    float: left;
+    min-height: 1px;
+    box-sizing: border-box;
+    padding: 0 10px;
+    margin-bottom: 20px
+}
+
+.col-20 {
+    width: 20%
+}
+
+.col-80 {
+    width: 80%
+}
+
+@media only screen and (min-width:320px) and (max-width:991px) {
+    [class^=col-] {
+        width: 100%;
+        padding-left: 0;
+        padding-right: 0
+    }
+}
+
+.trans02 {
+    transition: all .2s ease-in-out 0s
+}
+
+header.blockHeader {
+    float: left;
+    width: 100%;
+    border-bottom: 2px solid #161616;
+    margin-bottom: 20px
+}
+
+header.blockHeader .blockHeaderName {
+    display: inline-block;
+    padding: 5px 20px;
+    margin: 0 !important;
+    font-size: 1em;
+    text-transform: uppercase;
+    background-color: #161616
+}
+
+header.blockHeader .blockHeaderName a {
+    color: #fff;
+    text-decoration: none;
+    font-size: .8em;
+    text-transform: uppercase;
+    cursor: default
+}
+
+header.blockHeader .blockHeaderName a[href] {
+    cursor: pointer
+}
+
+header.blockHeader .blockHeaderName a[href]:hover {
+    text-decoration: underline
+}
+
+header.blockHeader a.more {
+    font-family: open sans, Arial, sans-serif;
+    float: right;
+    margin-top: 5px;
+    background: #f3f3f3 none repeat scroll 0 0;
+    color: grey;
+    font-size: .8em;
+    font-weight: 400;
+    padding: 4px 6px;
+    border-radius: 2px
+}
+
+header.blockHeader a.more:hover {
+    background: #161616 none repeat scroll 0 0;
+    color: #fff;
+    text-decoration: none
+}
+
+header.blockHeader a.more::before {
+    float: right;
+    margin: 3px 0 0 5px
+}
+
+.news {
+    float: left;
+    width: 100%
+}
+
+.news .listHeader {
+    margin-bottom: 45px
+}
+
+.news .section {
+    display: block;
+    float: left;
+    width: 100%
+}
+
+.news .section article {
+    position: relative;
+    float: left;
+    display: block;
+    list-style: outside none none;
+    width: 100%;
+    margin-bottom: 20px
+}
+
+.news .section article img {
+    width: 100%;
+    height: auto
+}
+
+.news .section article div.img {
+    position: relative;
+    display: block;
+    text-decoration: none;
+    font-size: 1px
+}
+
+.news .section article div.img .overlay {
+    position: absolute;
+    display: block;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    opacity: 0;
+    background-color: #161616;
+    color: #f3f3f3;
+    transition: all .2s ease-in-out 0s
+}
+
+.news .section article div.img .overlay::before {
+    font-family: icons;
+    content: "0";
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    font-size: 30px;
+    margin-top: -17px;
+    margin-left: -12px
+}
+
+.news .section article div.img:hover .overlay {
+    opacity: .5;
+    color: #f3f3f3
+}
+
+.news .section article .count {
+    position: absolute;
+    top: 3px;
+    right: 7px;
+    font-size: 14px;
+    color: #fff;
+    text-shadow: 1px 1px 1px rgba(0, 0, 0, .3)
+}
+
+.news .section article .count::before {
+    font-family: icons;
+    content: "4";
+    margin-right: 3px
+}
+
+.news .section article .linkName {
+    display: block;
+    position: relative;
+    float: left;
+    width: 100%;
+    margin-bottom: 5px
+}
+
+.news .section article .linkName a {
+    display: inline-block;
+    color: #161616;
+    text-decoration: none
+}
+
+.news .section article .linkName a:hover {
+    text-decoration: underline;
+}
+
+.news .section article .caption {
+    color: grey;
+    font-size: .8em
+}
+
+.news .section article:last-child {
+    margin-bottom: 0 !important;
+    border-bottom: 0 !important
+}
+
+.news .section article p {
+    margin-bottom: 0
+}
+
+@media only screen and (max-width:520px) {
+    .news .section article {
+        width: 100% !important
+    }
+}
+
+.vk-container {
+    font-family: tahoma, arial, verdana, sans-serif;
+    font-size: 15px;
+    color: #000;
+    text-decoration: none
+}
+
+.vk-header {
+    background: #dae2e8 none repeat scroll 0 0;
+    padding: 4px 4px 4px 6px;
+    margin-bottom: 10px
+}
+
+.vk-logo {
+    background: transparent none no-repeat scroll 0 0;
+    width: 16px;
+    height: 16px;
+    float: right;
+    margin-top: -1px
+}
+
+.vk-header-text {
+    padding: 2px 3px 1px;
+    line-height: 100%;
+    color: #45688e;
+    font-weight: 700
+}
+
+.vk-comment,
+.vk-comment-load {
+    margin-bottom: 15px;
+    position: relative;
+    border-bottom: 1px solid #dae1e8;
+    padding-bottom: 15px
+}
+
+.vk-avatar img {
+    float: left;
+    margin-right: 10px
+}
+
+.vk-comment-name {
+    color: #2b587a;
+    font-weight: 700;
+    font-size: 12px
+}
+
+.vk-comment-text {
+    margin-left: 60px
+}
+
+.vk-comment-date {
+    margin-left: 60px;
+    color: #999
+}
+
+.mIn {
+    width: 1400px
+}
+
+@media screen and (max-width:1400px) {
+    div.mIn {
+        width: 100% !important
+    }
+}
+
+h1,
+h2,
+h3 {
+    font-weight: 500
+}
+
+h1 {
+    font-size: 2.5em;
+    line-height: 110%;
+    font-weight: 400
+}
+
+body {
+    overflow-x: hidden;
+    font-family: segoe ui, open sans, Arial, sans-serif
+}
+
+#__main__ {
+    transition: all .3s ease-in-out 0s
+}
+
+#mobile_menu {
+    position: fixed;
+    margin: 0;
+    top: 0;
+    left: -300px;
+    width: 300px;
+    height: 100%;
+    background: #036 none repeat scroll 0 0;
+    overflow: hidden;
+    transition: all .3s ease-in-out 0s
+}
+
+#header {
+    display: flex;
+    position: relative;
+    top: 0;
+    left: 0;
+    width: 100%;
+    color: #fff;
+    background: #036 none repeat scroll 0 0;
+    z-index: 999;
+    transition: all .3s ease-in-out 0s;
+    max-width: 1340px;
+    margin: 0 auto;
+    padding: 15px
+}
+
+@media screen and (max-width:1024px) {
+    #header .main_menu {
+        display: none
+    }
+}
+
+#body {
+    position: relative;
+    min-height: 700px;
+    background-color: #eee
+}
+
+#body>#center {
+    padding-left: 0
+}
+
+#body>#center p {
+    margin-bottom: 20px
+}
+
+#body #right {
+    padding-right: 0
+}
+
+#body #right>div>div {
+    position: relative;
+    float: left;
+    width: 100%;
+    margin-bottom: 10px
+}
+
+#body #right ._company div.news {
+    margin-bottom: 10px
+}
+
+#body #right ._company div.news header.categoryImg {
+    background: #fff none repeat scroll 0 0
+}
+
+@media screen and (max-width:991px) {
+    #body ._company>header a {
+        text-decoration: underline
+    }
+
+    #body ._company div.news {
+        display: none
+    }
+
+    #body .sidebn {
+        padding-left: 15px;
+        padding-right: 15px
+    }
+}
+
+header.blockHeader {
+    margin-top: -3px;
+    border: medium;
+    margin-bottom: 10px
+}
+
+header.blockHeader .blockHeaderName {
+    background: transparent none repeat scroll 0 0;
+    padding: 0
+}
+
+@media screen and (max-width:991px) {
+    header.blockHeader .blockHeaderName {
+        padding: 0 20px
+    }
+}
+
+header.blockHeader .blockHeaderName a {
+    color: #222;
+    font-weight: 700
+}
+
+header.blockHeader>a {
+    display: none
+}
+
+#right .section>article {
+    padding: 10px 10px 10px;
+    margin: 0 auto;
+    background: #fff none repeat scroll 0 0;
+    border-bottom: 1px solid #eee
+}
+
+#right .section>article div.img {
+    border: medium;
+    margin-bottom: 10px
+}
+
+#right .section>article .linkName {
+    color: #222;
+    font-size: 14px;
+    font-weight: 400
+}
+
+@media screen and (max-width:991px) {
+
+    #right,
+    ._newsBN,
+    .related {
+        display: none
+    }
+}
+
+._content h1,
+._content h2,
+._content h3,
+._content p {
+    margin-bottom: 20px
+}
+
+._content .news.current {
+    margin-bottom: 0
+}
+
+._content .news.current .section article {
+    background: #fff none repeat scroll 0 0;
+    margin-bottom: 0;
+    padding-bottom: 40px
+}
+
+._content .news.current .section article h3.linkName {
+    padding: 20px 20px 0 60px;
+    margin: 0;
+    font-size: 1.5em
+}
+
+@media screen and (max-width:1024px) {
+    ._content .news.current .section article h3.linkName {
+        padding: 20px 20px 5px
+    }
+}
+
+._content .news.current .section article div.gallery {
+    position: relative;
+    float: left;
+    width: 100%;
+    margin-bottom: 30px;
+    min-height: 150px
+}
+
+._content .news.current .section article div.gallery .caption {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    padding: 30px 60px;
+    font-size: 20px;
+    color: #fff;
+    margin: 0 !important;
+    text-shadow: 1px 1px 1px rgba(0, 0, 0, .3);
+    background: rgba(0, 0, 0, 0) linear-gradient(to top, rgba(0, 0, 0, 0.8), rgba(0, 0, 0, 0.5)) repeat scroll 0 0
+}
+
+@media screen and (max-width:1024px) {
+    ._content .news.current .section article div.gallery .caption {
+        position: relative;
+        padding: 10px 20px;
+        background: transparent none repeat scroll 0 0;
+        color: #000;
+        text-shadow: 0 0 0 rgba(0, 0, 0, .3);
+        font-size: 18px
+    }
+}
+
+._content .news.current .section article .categories {
+    padding: 0 20px 0 60px
+}
+
+@media screen and (max-width:991px) {
+    ._content .news.current .section article .categories {
+        padding: 0 20px
+    }
+}
+
+._content .news.current .section article .categories a {
+    text-decoration: none;
+    color: #fff;
+    background: #eb0254 none repeat scroll 0 0;
+    padding: 5px 10px;
+    font-size: 11px;
+    font-weight: 700;
+    line-height: 100%;
+    text-transform: uppercase;
+    margin-right: 10px
+}
+
+._content .news.current .section article {
+    padding-bottom: 0 !important
+}
+
+._content .news_content {
+    /* float: left; */
+    /* width: 75%; */
+    padding: 0 60px 0 60px !important
+}
+
+@media screen and (max-width:991px) {
+    ._content .news_content {
+        padding: 0 20px !important;
+        width: 100%
+    }
+}
+
+._content .news_content .section article .beforeContent {
+    position: relative;
+    float: left;
+    width: 100%;
+    margin-bottom: 30px
+}
+
+._content .news_content .section article .beforeContent .categories {
+    padding: 0;
+    margin: 0;
+    float: left
+}
+
+._content ._newsBN {
+    float: right;
+    width: 25%;
+    padding-left: 20px;
+    padding-right: 20px;
+    border-left: 1px solid #dedede
+}
+
+@media screen and (max-width:991px) {
+    ._content ._newsBN {
+        width: 100%;
+        padding: 0 20px;
+        margin-top: 15px
+    }
+}
+
+._content ._newsBN div[data-id] {
+    margin-bottom: 20px
+}
+
+._content div.related {
+    float: left;
+    background: #fff none repeat scroll 0 0;
+    padding: 0;
+    margin-top: 20px
+}
+
+@media screen and (max-width:991px) {
+    ._content div.related {
+        padding: 20px 0
+    }
+}
+
+._content div.related .blockHeader a {
+    text-decoration: none;
+    background: transparent none repeat scroll 0 0
+}
+
+._content div.related .news .section article {
+    float: left;
+    width: 33%;
+    padding: 0 10px;
+    border: 0
+}
+
+._content div.related .news .section article h3 {
+    font-size: .8em !important;
+    padding: 10px 0 0 !important
+}
+
+._content div.related .news .section article:first-child {
+    padding: 0 20px 0 0
+}
+
+._content div.related .news .section article:last-child {
+    padding: 0 0 0 20px
+}
+
+@media screen and (max-width:991px) {
+    ._content div.related .news .section article {
+        padding: 0 !important;
+        margin: 10px 0 !important
+    }
+
+    ._content div.related .news .section article h3 {
+        position: absolute;
+        bottom: 0;
+        padding: 10px !important;
+        margin: 0;
+        background-color: rgba(0, 0, 0, .5)
+    }
+}
+
+._content {
+    position: relative;
+    float: left;
+    width: 100%;
+    background: #fff none repeat scroll 0 0;
+    padding-top: 40px;
+    padding-bottom: 40px
+}
+
+@media screen and (max-width:991px) {
+    ._content {
+        padding-top: 20px
+    }
+}
+
+._content>* {
+    padding: 0 40px
+}
+
+._content>.news {
+    padding: 0
+}
+
+._content>.news>h1.listHeader {
+    padding-left: 60px;
+    padding-right: 60px
+}
+
+@media screen and (max-width:991px) {
+    ._content>.news>h1.listHeader {
+        padding-left: 20px;
+        padding-right: 20px;
+        font-size: 1.6em
+    }
+}
+
+#subfooter {
+    background: #0d3d6e none repeat scroll 0 0;
+    padding-top: 20px;
+    padding-bottom: 15px;
+    font-size: 14px;
+    color: #708aa5
+}
+
+#subfooter ._copy {
+    float: left;
+    margin-top: 5px
+}
+
+@media screen and (max-width:991px) {
+    #subfooter {
+        padding: 20px
+    }
+}
+
+#header {
+    background: #003267
+}
+
+#header a {
+    color: #fff;
+    text-decoration: none;
+    text-transform: uppercase;
+    font-weight: 500;
+    margin: 0 20px
+}
+
+#header a:hover {
+    color: #999
+}
+
+.rub-ramka {
+    text-indent: 0 !important;
+    background: rgba(200, 0, 224, .04);
+    padding: 6px 13px 18px !important;
+    border-radius: 2px;
+    border: 4px double rgba(160, 21, 21, .32);
+    font-family: open sans, arial;
+    line-height: 28px;
+    font-size: 16px;
+    margin: 0 auto;
+    font-weight: 400;
+    color: #4a4a4a;
+    margin-bottom: 20px
+}
+
+.myh4 {
+    padding: 6px 4px 4px 5px;
+    width: 100%;
+    display: table;
+    text-indent: 0;
+    padding: 9px 0 6px 12px;
+    width: 100%;
+    display: table;
+    border: 1px dotted #e2e2e2;
+    border-right: none;
+    color: #313131;
+    margin-top: 10px;
+    text-transform: uppercase;
+    font-size: 12px;
+    line-height: 23px;
+    margin-bottom: 15px;
+    border-radius: 2px;
+    border-left: none;
+    margin-left: 0;
+    font-weight: 600;
+    background-color: #f5fef5;
+    background-image: -webkit-gradient(linear, 0% 50%, 100% 50%, color-stop(0, rgb(234, 180, 180)), color-stop(1, rgb(245, 254, 245)));
+    background-image: -webkit-repeating-linear-gradient(0deg, rgb(234, 180, 180) 0%, rgb(245, 254, 245) 100%);
+    background-image: repeating-linear-gradient(90deg, rgb(234, 180, 180) 0%, rgb(245, 254, 245) 100%);
+    background-image: -ms-repeating-linear-gradient(0deg, rgb(234, 180, 180) 0%, rgba(3, 224, 0, 0.04) 100%)
+}
+
+.of-site {
+    font: bold 30px/100% "RussiaLight", sans-serif;
+    text-decoration: underline;
+    color: #0095da
+}
+
+.colorPink {
+    color: #c71585
+}
+
+img.article-pic {
+    display: block;
+    width: 100%;
+    max-width: 390px;
+    margin: 0 auto
+}
+
+.form__photo,
+.form__form {
+    display: inline-block;
+    font-size: 16px;
+    width: 50%;
+    vertical-align: middle;
+    text-align: center;
+}
+
+.form .prices {
+    width: 100%;
+    text-align: center;
+    font-size: 0;
+    margin: 0 0 30px;
+    line-height: 1.2;
+}
+
+.form .prices p {
+    margin-bottom: 0 !important;
+}
+
+.form .prices .old {
+    display: inline-block;
+    vertical-align: middle;
+    margin-right: 15px;
+    font-size: 19px;
+    color: #b2b2b2;
+    line-height: 1.2;
+}
+
+.form .prices .old p {
+    font-size: 16px;
+    margin: 0 auto;
+    color: #b2b2b2;
+    line-height: 1.2;
+}
+
+.form .prices .new {
+    display: inline-block;
+    vertical-align: middle;
+    font-size: 25px;
+    text-transform: uppercase;
+    line-height: 1.2;
+    color: #e52229;
+    font-weight: 700;
+}
+
+.form .prices .new p {
+    font-size: 24px;
+    margin: 0 auto;
+    line-height: 1.2;
+    color: #e52229;
+}
+
+input,
+textarea,
+select {
+    display: block;
+    width: 100%;
+    max-width: 250px;
+    margin: 0 auto 16px;
+    border: 1px solid #e7e7e7;
+    background: #f8f9f9 none repeat scroll 0% 0%;
+    border-radius: 3px;
+    font-size: 16px;
+    color: #000;
+    padding-left: 15px;
+    height: 40px;
+}
+
+select::-ms-expand {
+    display: none;
+}
+
+select {
+    -webkit-appearance: none;
+    -moz-appearance: none;
+    -ms-appearance: none;
+    appearance: none !important;
+    background: #f8f9f9 url("../img/sel.png") no-repeat 96% 50%;
+}
+
+.form button,
+.btn3 {
+    max-width: 250px;
+    width: 100%;
+    height: auto;
+    display: block;
+    margin: 0 auto;
+    cursor: pointer;
+    padding: 15px 10px;
+    background: transparent linear-gradient(to bottom, #ff313a 0%, #8a0204 100%) repeat scroll 0 0;
+    border: none;
+    border-radius: 5px;
+    color: #fff;
+    font-weight: 700;
+    font-size: 18px;
+    text-transform: uppercase;
+    transition: all .3s;
+    text-align: center;
+    text-decoration: none;
+    line-height: 1;
+}
+
+.btn3:hover {
+    transform: scale(1.1);
+    background: transparent linear-gradient(to bottom, #188be2 0%, #0c4d99 100%) repeat scroll 0 0;
+    text-decoration: none;
+    color: #fff;
+}
+
+.form {
+    font-size: 0;
+    max-width: 600px;
+    margin: 0 auto;
+}
+
+.form__title {
+    color: #e52229;
+    font-weight: 700;
+    font-size: 30px;
+    line-height: 1.2;
+    margin-bottom: 30px;
+}
+
+@media(max-width: 600px) {
+    .form__photo {
+        width: 100%;
+        display: block;
+        margin-bottom: 30px;
+    }
+
+    .form__title {
+        font-size: 27px;
+    }
+
+    .form__form {
+        width: 100%;
+        display: block;
+    }
+}
+
+.colored-link {
+    font-weight: 700;
+    color: #C71585;
+    transition: all .3s  ease-out;
+}
+
+.colored-link:hover {
+    color: #ff7c03;
+}
+
+/*@media (max-width: 991px) {*/
+/*    .vk-comment:nth-last-child(n+7) {*/
+/*        display: none;*/
+/*    }*/
+/*}*/
+
+select {
+    appearance: none;
+    -moz-appearance: none;
+    -webkit-appearance: none;
+}
+.main__product {
+    max-width: 180px;
+}
+
+
+@media screen and (max-width:480px) {
+    #subfooter {
+        padding: 20px
+    }
+    .head-img {
+        padding: 0 20px;
+    }
+}
+
+.vk-comment--reply {
+    padding-left: 20px;
+}
